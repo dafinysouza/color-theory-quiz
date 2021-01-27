@@ -5,6 +5,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import HeadTag from '../src/components/HeadTag';
 
 const Title = styled.h1`
   font-size: 50px;
@@ -31,29 +32,32 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-    <QuizBackground backgroundImage={db.bg}>
-      <QuizContainer>
-        <QuizLogo />
-        <Widget>
-          <Widget.Header>
-            <h1>Teoria das cores</h1>
-          </Widget.Header>
-          <Widget.Content>
-            <p>Teste sobre teoria das cores na web</p>
-          </Widget.Content>
-        </Widget>
+    <>
+      <HeadTag />
+      <QuizBackground backgroundImage={db.bg}>
+        <QuizContainer>
+          <QuizLogo />
+          <Widget>
+            <Widget.Header>
+              <h1>Teoria das cores</h1>
+            </Widget.Header>
+            <Widget.Content>
+              <p>Teste sobre teoria das cores na web</p>
+            </Widget.Content>
+          </Widget>
 
-        <Widget>
-          <Widget.Header>
-            <h1>Quizes da galera</h1>
-          </Widget.Header>
-          <Widget.Content>
-            <p>Navegue pelos quizes da galera</p>
-          </Widget.Content>
-        </Widget>
-        <Footer />
-      </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/dafinysouza" />
-    </QuizBackground>
+          <Widget>
+            <Widget.Header>
+              <h1>Quizes da galera</h1>
+            </Widget.Header>
+            <Widget.Content>
+              <p>Navegue pelos quizes da galera</p>
+            </Widget.Content>
+          </Widget>
+          <Footer />
+        </QuizContainer>
+        <GitHubCorner projectUrl="https://github.com/dafinysouza" />
+      </QuizBackground>
+    </>
   );
 }
