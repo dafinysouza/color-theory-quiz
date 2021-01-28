@@ -1,5 +1,5 @@
 {
-    "bg": "https://images.unsplash.com/photo-1506445101384-8106dd5c53d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2043&q=80",
+    "bg": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80",
     "title": "Teoria das cores",
     "description": "Teste os seus conhecimentos sobre teoria das cores no mundo da web!",
     "questions": [
@@ -31,8 +31,8 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#689f38",
-        "secondary": "#ff4081",
+        "primary": "#4a148c",
+        "secondary": "#ffc107",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
