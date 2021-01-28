@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
