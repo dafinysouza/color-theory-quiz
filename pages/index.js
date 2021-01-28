@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useRouter } from 'next/router';
+
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -20,6 +22,9 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+
   return (
     <>
       <HeadTag />
@@ -32,6 +37,23 @@ export default function Home() {
             </Widget.Header>
             <Widget.Content>
               <p>Teste sobre teoria das cores na web</p>
+              <form onSubmit={function (event) {
+                event.preventDefault();
+                router.push(`/quiz?name=${name}`);
+              }}
+              >
+                <input
+                  onChange={function (event) {
+                    setName(event.target.value);
+                  }}
+                  placeholder="Digite o seu nome"
+                />
+                <button type="submit" disabled={name.length === 0}>
+                  Jogar
+                  {' '}
+                  {name}
+                </button>
+              </form>
             </Widget.Content>
           </Widget>
 
