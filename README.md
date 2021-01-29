@@ -2,7 +2,7 @@
 
 Responda perguntas relacionadas a como as cores são utilizadas na web!
 
-![](https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80)
+![](https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/bg-readme.png)
 
 ### Example app with styled-components
 
