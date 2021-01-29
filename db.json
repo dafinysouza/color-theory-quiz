@@ -35,6 +35,7 @@
         "secondary": "#ffc107",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
+        "lightgray": "#e8f0fe",
         "wrong": "#FF5722",
         "success": "#4CAF50"
       },
