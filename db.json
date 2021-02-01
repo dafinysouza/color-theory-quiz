@@ -27,7 +27,10 @@
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-base.alura-challenges.vercel.app/",
+      "https://quiz-valorant.johnatanivini.vercel.app/",
+      "https://thesimpsonsquiz.gabriel-brasil.vercel.app/"
+
     ],
     "theme": {
       "colors": {
