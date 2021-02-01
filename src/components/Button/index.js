@@ -17,10 +17,10 @@ const Button = styled.button`
   cursor: pointer;
   &:hover,
   &:focus {
-    opacity: .5;
+    opacity: .8;
   }
   &:disabled {
-    background-color: #979797;
+    background-color: rgb(232, 240, 254);
     cursor: not-allowed;
   }
 `;
