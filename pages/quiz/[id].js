@@ -2,11 +2,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
+import HeadTag from '../../src/components/HeadTag';
 import QuizScreen from '../../src/screens/Quiz';
 
 export default function QuizDaGaleraPage({ dbExterno }) {
   return (
     <ThemeProvider theme={dbExterno.theme}>
+      <HeadTag
+        title="Quizes da galera"
+        description="Teste seus conhecimentos respondendo quizes sobre diversos assuntos!"
+      />
       <QuizScreen
         externalQuestions={dbExterno.questions}
         externalBg={dbExterno.bg}

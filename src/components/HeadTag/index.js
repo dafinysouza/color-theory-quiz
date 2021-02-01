@@ -1,28 +1,29 @@
 import React from 'react';
 import Head from 'next/head';
 
-function HeadTag() {
+// eslint-disable-next-line react/prop-types
+function HeadTag({ title, description }) {
   return (
     <Head>
       {/* Primary Meta Tags */}
-      <title>Quiz: Teoria das cores</title>
-      <meta name="title" content="Quiz: Teoria das cores" />
-      <meta name="description" content="Teste seu conhecimento sobre como as cores funcionam na web!" />
+      <title>{title}</title>
+      <meta name="title" content={title} />
+      <meta name="description" content={description} />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="shortcut icon" href="https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/favicon.ico" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://color-theory-quiz.dafinysouza.vercel.app/" />
-      <meta property="og:title" content="Quiz: Teoria das cores" />
-      <meta property="og:description" content="Teste seu conhecimento sobre como as cores funcionam na web!" />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
       <meta property="og:image" content="https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/og-color.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://color-theory-quiz.dafinysouza.vercel.app/" />
-      <meta property="twitter:title" content="Quiz: Teoria das cores" />
-      <meta property="twitter:description" content="Teste seu conhecimento sobre como as cores funcionam na web!" />
+      <meta property="twitter:title" content={title} />
+      <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content="https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/og-color.png" />
 
       {/* Google Fonts */}

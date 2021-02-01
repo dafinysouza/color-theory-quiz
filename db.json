@@ -1,28 +1,42 @@
 {
     "bg": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80",
-    "title": "Teoria das cores na web",
+    "title": "Teoria das cores",
     "description": "Teste os seus conhecimentos sobre teoria das cores no mundo da web!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_1.png",
+        "title": "Qual das opções representa um código hexadecimal?",
+        "description": "Escolha uma das opções abaixo",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "LimeGreen",
+          "#32CD32",
+          "$32CD32",
+          "(50,205,50)"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_2.png",
+        "title": "Qual é a abreviatura para o sistema de cores formado por vermelho, verde e azul?",
+        "description": "Escolha uma das opções abaixo",
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "CMYK",
+           "BITMAP",
+           "RGB",
+           "HEXADECIMAL"
+        ]
+      },
+      {
+        "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_3.png",
+        "title": "Sabemos que o branco é representado pelo maior valor para as três cores primarias, sendo assim, qual opção representa a cor branca em hexadecimal?",
+        "description": "Dica: em hexadecimal, usamos os dígitos 0 1 2 3 4 5 6 7 8 9 A B C D E F",
+        "answer": 2,
+        "alternatives": [
+           "#000000",
+           "#5566FF",
+           "#FFFFFF",
+           "#669925"
         ]
       }
     ],

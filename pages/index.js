@@ -31,7 +31,10 @@ export default function Home() {
 
   return (
     <>
-      <HeadTag />
+      <HeadTag
+        title="Quiz: Teoria das cores"
+        description="Teste os seus conhecimentos sobre teoria das cores no mundo da web!"
+      />
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
           <QuizLogo />
