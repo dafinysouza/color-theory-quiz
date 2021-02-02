@@ -31,19 +31,19 @@
         "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_3.png",
         "title": "Na web, temos a cor branca quando usamos o maior valor para as 3 cores RGB, sendo assim, qual código abaixo representa a cor branca em hexadecimal?",
         "description": "Dica: com os valores 00 a FF conseguimos representar os valores 0 a 255 na base decimal.",
-        "answer": 2,
+        "answer": 3,
         "alternatives": [
-           "#000000",
-           "#5566FF",
-           "#FFFFFF",
-           "#669925"
+          "#000000",
+          "#5566FF",
+          "#669925",
+          "#FFFFFF"
         ]
       },
       {
         "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_4.png",
         "title": "A cor amarela é formada pela mistura do verde e vermelho, sendo assim, como podemos escrever essa cor em hexadecimal?",
         "description": "Escolha uma das opções abaixo:",
-        "answer": 2,
+        "answer": 0,
         "alternatives": [
            "Com os valores máximos para o vermelho e verde, e o valor mínimo para azul: #FFFF00 ",
            "Com os valores mínimos para vermelho e verde, e o valor máximo para azul: #0000FF",
