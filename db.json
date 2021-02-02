@@ -6,10 +6,10 @@
       {
         "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_1.png",
         "title": "Qual sequência de números representa o sistema hexadecimal?",
-        "description": "Dica: O sistema hexadecimal é representado por números em base 16.",
+        "description": "Dica: É um sistema de numeração posicional que representa os números em base 16, sendo assim, utilizando 16 símbolos.",
         "answer": 1,
         "alternatives": [
-          "0 1 2 3 4 5 6 7 8 9 10 B C D E H",
+          "0 1 2 3 4 5 6 7 8 9 10 Z Y X W",
           "0 1 2 3 4 5 6 7 8 9 A B C D E F",
           "2 3 4 5 6 7 8 9 A B C D E F G H",
           "Nenhuma das alternativas"
@@ -30,7 +30,7 @@
       {
         "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_3.png",
         "title": "Na web, temos a cor branca quando usamos o maior valor para as 3 cores RGB, sendo assim, qual código abaixo representa a cor branca em hexadecimal?",
-        "description": "Dica: com os valores 00 a FF conseguimos representar os valores 0 a 255 na base decimal.",
+        "description": "Dica: Com os valores 00 a FF conseguimos representar os valores 0 a 255 na base decimal.",
         "answer": 3,
         "alternatives": [
           "#000000",
