@@ -32,7 +32,7 @@ function ResultWidget({ results }) {
         </p>
         <ul>
           {results.map((result, index) => (
-            <li key={`result__${result}`}>
+            <li key={`result__${index + 1}`}>
               #
               {index + 1}
               {' '}
@@ -124,7 +124,7 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 3 * 1000);
+            }, 2 * 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
@@ -145,6 +145,7 @@ function QuestionWidget({
                   name={questionId}
                   onChange={() => setSelectedAlternative(alternativeIndex)}
                   type="radio"
+                  checked={false}
                 />
                 {alternative}
               </Widget.Topic>
