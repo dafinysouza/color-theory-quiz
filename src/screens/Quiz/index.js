@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
 import Widget from '../../components/Widget';
 import QuizLogo from '../../components/QuizLogo';
 import QuizBackground from '../../components/QuizBackground';
@@ -46,6 +47,21 @@ function ResultWidget({ results }) {
   );
 }
 
+const Spin = keyframes`
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+`;
+
+const Loading = styled.div`
+  border: 16px solid #4a148c;
+  border-radius: 50%;
+  border-top: 16px solid #e8f0fe;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  animation: ${Spin} 1s linear infinite;
+`;
+
 function LoadingWidget() {
   return (
     <Widget>
@@ -54,7 +70,7 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <Loading />
       </Widget.Content>
     </Widget>
   );
