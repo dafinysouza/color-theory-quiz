@@ -1,24 +1,24 @@
 {
     "bg": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80",
     "title": "Teoria das cores",
-    "description": "Teste os seus conhecimentos sobre teoria das cores no mundo da web!",
+    "description": "Teste os seus conhecimentos sobre cores no mundo da web!",
     "questions": [
       {
         "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_1.png",
-        "title": "Qual das opções representa um código hexadecimal?",
-        "description": "Escolha uma das opções abaixo",
+        "title": "Qual sequência de números representa o sistema hexadecimal?",
+        "description": "Dica: O sistema hexadecimal é representado por números em base 16.",
         "answer": 1,
         "alternatives": [
-          "LimeGreen",
-          "#32CD32",
-          "$32CD32",
-          "(50,205,50)"
+          "0 1 2 3 4 5 6 7 8 9 10 B C D E H",
+          "0 1 2 3 4 5 6 7 8 9 A B C D E F",
+          "2 3 4 5 6 7 8 9 A B C D E F G H",
+          "Nenhuma das alternativas"
         ]
       },
       {
         "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_2.png",
         "title": "Qual é a abreviatura para o sistema de cores formado por vermelho, verde e azul?",
-        "description": "Escolha uma das opções abaixo",
+        "description": "Escolha uma das opções abaixo:",
         "answer": 2,
         "alternatives": [
            "CMYK",
@@ -29,8 +29,8 @@
       },
       {
         "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_3.png",
-        "title": "Sabemos que o branco é representado pelo maior valor para as três cores primarias, sendo assim, qual opção representa a cor branca em hexadecimal?",
-        "description": "Dica: em hexadecimal, usamos os dígitos 0 1 2 3 4 5 6 7 8 9 A B C D E F",
+        "title": "Na web, temos a cor branca quando usamos o maior valor para as 3 cores RGB, sendo assim, qual código abaixo representa a cor branca em hexadecimal?",
+        "description": "Dica: com os valores 00 a FF conseguimos representar os valores 0 a 255 na base decimal.",
         "answer": 2,
         "alternatives": [
            "#000000",
@@ -38,12 +38,24 @@
            "#FFFFFF",
            "#669925"
         ]
+      },
+      {
+        "image": "https://raw.githubusercontent.com/dafinysouza/color-theory-quiz/main/src/img/question_4.png",
+        "title": "A cor amarela é formada pela mistura do verde e vermelho, sendo assim, como podemos escrever essa cor em hexadecimal?",
+        "description": "Escolha uma das opções abaixo:",
+        "answer": 2,
+        "alternatives": [
+           "Com os valores máximos para o vermelho e verde, e o valor mínimo para azul: #FFFF00 ",
+           "Com os valores mínimos para vermelho e verde, e o valor máximo para azul: #0000FF",
+           "Com os valores mínimos para vermelho e azul, e o valor máximo para verde: #00FF00",
+           "Nenhuma das opções"
+        ]
       }
     ],
     "external": [
-      "https://aluraquiz-base.alura-challenges.vercel.app/",
-      "https://quiz-valorant.johnatanivini.vercel.app/",
-      "https://thesimpsonsquiz.gabriel-brasil.vercel.app/"
+      "https://soulquiz.jessicafpx.vercel.app/",
+      "https://thesimpsonsquiz.gabriel-brasil.vercel.app/",
+      "https://imersao-react-next-js.thaislsilveira.vercel.app/"
 
     ],
     "theme": {
